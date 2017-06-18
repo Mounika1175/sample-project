@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #3e82c8;
+  padding: 1px;
+  color: white;
+  padding-left: 27%;
+  text-align: left;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.noposts{
+  margin-top: 70px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.postsList{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.eachpost{
+  padding: 8px;
+  border-bottom: 1px solid #8a8a8a;
+  cursor: pointer;
+}
+
+img.thumbail {
+  height: 90px;
+  width:90px;
+}
+
+.author{
+  font-weight: bold;
+  font-size:14px;
+  color: skyblue;
+}
+
+.fa {
+  color: skyblue;
+}
+/*.chaticon {
+    width: 46px;
+    height: 44px;
+    background: url(./../images/icon-sprite.png) 0 0;
+}*/
+.p0{
+  padding: 0px;
+}
+
+.titleHeight{
+  height: 80px;
+}
+
+.commentsups{
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+#category{
+  height: 26px;
+  margin-top: 6px;
+  border-radius: 13px;
+}
+
+
+#category {
+  width: 25%;
+  float: right;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+ 
+#category:focus {
+  width: 70%;
+}
+
+#overlay {
+    position: fixed; 
+    display: none; 
+    width: 100%;
+    height: 100%; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); 
+    z-index: 2; 
+    cursor: pointer;
+}
+
+.overlayContent{
+    margin-top: 50px;
+    /*line-height: 12;*/
+}
+
+.textdesc{
+    color: #fff;
+    margin-top: 145px;
+}
+
+.sendDiv{
+      width: 150px;
+    background: #fff;
+    text-align: center;
+    /*height: 150px;*/
+    color: #00b6ff;
+    line-height: 45px;
+    margin-bottom: 20px;
+    padding-top: 19px;
+    border-radius: 22px;
+}
+
+.sendIcons{
+  text-align: right;
+}
+
+.sendIcons img{
+  height: 70px;
+  width: 70px;
+}
+
+.postDetails .postTitle{
+  line-height: 12px;
+  color:#000;
+}
+
+.eachpost:hover{
+  background: #fff;
+}
+
+.openonredditAnchor{
+  text-decoration: none;
+}
+
+.openonredditAnchor:hover{
+  text-decoration: none;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
